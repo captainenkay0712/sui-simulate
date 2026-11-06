@@ -1,0 +1,21 @@
+{
+  "checkpoint": 318338539,
+  "sender": "0x5c0e8537582b95dfe857a53127ac0204717f6505f955cd780eef3b4edb592dd1",
+  "inputs": [
+    { "object": "0xf948981b806057580f91622417534f491da5f61aeaf33d0ed8e69fd5691c95ce" },
+    { "coin": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP", "amount": "369022167" },
+    { "coin": "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP", "amount": "0" },
+    { "pure": "u64", "value": "0" },
+    { "object": "0x6" }
+  ],
+  "commands": [
+    { "move_call": {
+        "target": "0x2c8d603bc51326b8c13cef9dd07031a408a48dddb541963357661df5d3204809::pool::swap_exact_base_for_quote",
+        "type_args": [
+          "0xdeeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270::deep::DEEP",
+          "0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC"
+        ],
+        "args": [ {"Input": 0}, {"Input": 1}, {"Input": 2}, {"Input": 3}, {"Input": 4} ]
+    } }
+  ]
+}

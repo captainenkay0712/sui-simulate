@@ -1,0 +1,18 @@
+[package]
+name = "sui-fork-sim"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Pin to the mainnet release tag so the Move VM / protocol configs match the chain.
+sui-types = { git = "https://github.com/MystenLabs/sui.git", tag = "mainnet-v1.82.3" }
+sui-execution = { git = "https://github.com/MystenLabs/sui.git", tag = "mainnet-v1.82.3" }
+sui-data-store = { git = "https://github.com/MystenLabs/sui.git", tag = "mainnet-v1.82.3" }
+move-core-types = { git = "https://github.com/MystenLabs/sui.git", tag = "mainnet-v1.82.3" }
+anyhow = "1.0.71"
+base64 = "0.21.2"
+bcs = "0.1.4"
+prometheus = "0.14"
+reqwest = { version = "0.12", features = ["blocking", "json"] }
+serde = { version = "1.0.144", features = ["derive"] }
+serde_json = { version = "1.0.95", features = ["preserve_order"] }

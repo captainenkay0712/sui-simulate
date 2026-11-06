@@ -1,0 +1,3 @@
+[toolchain]
+# Must match the toolchain of the pinned Sui tag.
+channel = "1.98.1"
